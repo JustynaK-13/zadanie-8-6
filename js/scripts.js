@@ -6,9 +6,7 @@ alert("The result of the action  = " + value);
 
 if (value < 0) {
     console.log('Wynik ujemny');
+} else if (value == 0) {
+	console.log('false');
 }
-/*
-if (value == 0) {
-console.log('false');
-}
-*/
+
